@@ -1,0 +1,192 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+body{
+  width: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+  font-family: 'Satoshi',sans-serif;
+}
+@font-face {
+  font-family: 'Integral CF';
+  src: url('/IntegralCF-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background-color: white;
+  
+}
+.target{
+  font-family: 'Satoshi', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #ffffff;
+  width: 100vw;
+  height: 50px;
+  font-size: 14px;
+}
+.target a{
+  color: #ffffff;
+}
+.logo h1 {
+  font-family: 'Integral CF', sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  margin: 0;
+}
+.menu {
+  font-family: 'Satoshi', sans-serif;
+  display: flex;
+  gap: 30px;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+form {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 700px;
+  height: 38px;
+}
+form input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+background-image: url('https://cdn-icons-png.flaticon.com/512/622/622669.png');
+background-size: 18px;
+background-position: 10px center;
+background-repeat: no-repeat;
+padding-left: 55px;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/*Section Inicio*/
+.inicio {
+  position: relative;
+  background: #F2F0F1;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 10%;
+  font-family: 'Satoshi', sans-serif;
+}
+.interface {
+  max-width: 600px;
+  color: black;
+}
+h1 {
+  font-family: 'Integral CF', sans-serif;
+  font-size: 4.5rem;
+  font-weight: bold;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #666;
+}
+.shop-now {
+  background: black;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  font-size: 1rem;
+  width: 210px;
+  height: 52px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.shop-now:hover {
+  background: #333;
+}
+.amount-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+.amount {
+  text-align: center;
+  flex: 1;
+}
+.amount h3 {
+  font-size: 40px;
+  margin: 0;
+}
+.amount p {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+}
+/* Imagem */
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container img {
+  max-width: 500px;
+  height: auto;
+}
+.logos-marcas {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  padding: 20px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logos-marcas img {
+  max-width: ;
+  height: auto;
+
+}
+
+/*Section INICIO(FIM)*/
+.new-arrivals h1{
+  text-align: center;
+  font-size: 48px;
+}
+
+.roupa img{
+  display: inline-blox;
+  justify-content: space-between;
+  align-items: center;
+  width: 198px;
+  height: 200px;
+  border-radius: 5%;
+}
+/*Section New ARRIVALS*/
+
