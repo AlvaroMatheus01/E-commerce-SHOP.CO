@@ -16,7 +16,7 @@ html{
 
 @font-face {
   font-family: 'Integral CF';
-  src: url('/IntegralCF-Bold.ttf') format('truetype');
+  src: url('./IntegralCF-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
